@@ -1,0 +1,10 @@
+<section class="giphy__section">
+  <br>
+  <app-search (searchTerm)="onSearch($event)"></app-search>
+  <br>
+  <br>
+  <app-giphy-list [giphy]="giphyList" [searchTerm]="searchInput" (onBackToTrending)="loadTrending($event)"></app-giphy-list>
+  <br>
+  <br>
+  <br>
+</section>

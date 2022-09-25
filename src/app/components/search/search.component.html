@@ -1,0 +1,8 @@
+<section class="search__section">
+  <div class="wrapper">
+    <div class="container active">
+      <input [formControl]="searchInput" type="text" class="input active" placeholder="Search all the GIFs and Stickers">
+      <i class="fa fa-search" aria-hidden="true" (mousedown)="getSearchInput($event)"></i>
+    </div>
+  </div>
+</section>

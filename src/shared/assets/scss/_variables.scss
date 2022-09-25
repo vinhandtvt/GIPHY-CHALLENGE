@@ -1,0 +1,97 @@
+
+// COLOR SYSTEM STYLE GUIDE
+$primary-color: #533483;
+$secondary-color: #024a56;
+
+// fonts
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Grenze Gotisch", sans-serif;
+$tertiary-font: "Segoe UI", sans-serif;
+$inter-font: "Inter Regular";
+
+
+$primary-font-color: #d2b16f;
+$font-color: #ffffff;
+$font-color-timer: #78cbe5;
+$font-color-error: #ff0000;
+$font-color-success: #049A9B;
+
+// background
+$primary-background: #faebe4;
+
+// border
+$border-color: #2d6279;
+
+// chat
+$chat-primary-color: #A1D61A;
+$chat-secondary-color: #F08719;
+
+
+// colors
+$gray: #646b6c;
+$gray1: #a1a19f;
+$gray2: #d0d0d0;
+$gray3: #e7e7e7;
+$gray4: #2B3838;
+$gray5: #C4C4C4;
+$white: #ffffff;
+$black: #000000;
+$blue: #31AAAA;
+$blue2: #3B6394;
+$blue3: #3B6395;
+$blue4: #0B999A;
+$blue5: #3A6395;
+$dark-blue: #282f60;
+$green: #3da935;
+$green1: #90d033;
+$green2: #b1de70;
+$orange: #fcca0b;
+$orange1: #FF8A00;
+$orange2: #FFA776;
+$yellow: #d2b16f;
+$red: #BE2344;
+$pink: #F806CC;
+
+// fonts size
+$small: 12px;
+$medium: 14px;
+$normal: 16px;
+$large: 18px;
+$xxs-large: 20px;
+$xs-large: 24px;
+$x-large: 26px;
+$x-large: 30px;
+$xx-large: 32px;
+$xxx-large: 40px;
+$xl-large: 46px;
+$xxl-large: 50px;
+
+// line height
+$line-height-small: 16px;
+$line-height-small: 16px;
+$line-height-medium: 20px;
+$line-height-normal: 24px;
+$line-height-large: 28px;
+$line-height-xxs-large: 30px;
+$line-height-xs-large: 32px;
+$line-height-x-large: 34px;
+$line-height-xx-large: 40px;
+$line-height-xxx-large: 45px;
+$line-height-xl-large: 58px;
+$line-height-xxl-large: 60px;
+$line-height-xxxl-large: 75px;
+
+//font-weight
+$light-weight: 300;
+$medium-weight: 400;
+$regular-weight: 500;
+$bolder-weight: 600;
+$bold-weight: 700;
+
+
+// layout
+// NOTE: https://darkhelm.org/blog/2018/11/30/angular-material-breakpoints-details-they-didnt-explain-in-the-docs/
+$mobile-width: 599px;
+$mobile-height: 480px;
+$landscape-mobile-width: 959px;
+$desktop-standard-width: 1200px;

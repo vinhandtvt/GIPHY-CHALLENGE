@@ -1,0 +1,39 @@
+<section class="giphy-list__section">
+  <h3
+    class="giphy-list__section--btn__trending"
+    *ngIf="showSearchList"
+    (mousedown)="getTrending()"
+  >
+    <span>Trending</span>
+  </h3>
+
+  <div class="giphy-list__section--title">
+    <h2>{{ title }}</h2>
+  </div>
+
+  <div class="giphy-list__section--container">
+    <ng-container *ngFor="let gif of giphyList; index as i">
+      <div (mousedown)="openOnGiphy(gif)" class="gallery-container h-2 w-default" [ngClass]="'w-' + (i + 1)">
+        <div class="gallery-item">
+          <div class="image">
+            <img [src]="gif?.url" [alt]="gif?.title" />
+            <div class="text">
+              <p>Title: {{ gif?.title }}</p>
+              <p>Author: {{ gif?.username }}</p>
+              <p>import Date: {{ gif?.import_datetime | date }}</p>
+              <p>Rating: {{ gif?.rating }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <div class="giphy-list__section--empty" *ngIf="giphyList.length === 0">
+    <img
+      alt="crying girl"
+      src="https://media2.giphy.com/media/3o6wrvdHFbwBrUFenu/giphy.gif?cid=1fcc7b6cq2e50vjjcnlm8sgjv7ev54de7unadves7x5konnd&amp;rid=giphy.gif&amp;ct=g"
+    />
+    <h4>Oops! There’s nothing here.</h4>
+  </div>
+</section>

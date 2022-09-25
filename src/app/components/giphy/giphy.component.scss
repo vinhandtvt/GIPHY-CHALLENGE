@@ -1,0 +1,7 @@
+@import '../../../shared/assets/scss/variables';
+
+:host {
+  .giphy__section {
+    background-color: $primary-color;
+  }
+}

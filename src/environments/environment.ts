@@ -3,9 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  isLocalStorage: false,
+  version: 'localhost',
+  url: 'http://localhost:4200',
+  apiUrl: 'https://api.giphy.com/v1/gifs',
+  API_KEY: 'YNmnRE0kzCn9D4GTayx6wV7MvgGv40Lf',
+  API_KEY2: 'usDR6lVRtajZJCK3GPcAGqkudMGH4a54',
+  validateAppPassword: false,
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
